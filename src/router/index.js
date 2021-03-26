@@ -1,6 +1,13 @@
+/* eslint-disable no-unused-vars*/ 
+
 import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
+import Quiz from '../views/Quiz.vue'
+import EyeHealth from '../views/EyeHealth.vue'
+import About from '../views/About.vue'
+
+
 
 Vue.use(VueRouter)
 
@@ -9,6 +16,16 @@ const routes = [
     path: '/',
     name: 'Home',
     component: Home
+  },
+  {
+    path: '/quiz',
+    name: 'Quiz',
+    component: Quiz
+  },
+  {
+    path: '/eyeHealth',
+    name: 'eyeHealth',
+    component: EyeHealth
   },
   {
     path: '/about',

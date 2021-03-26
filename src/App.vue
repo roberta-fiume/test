@@ -1,8 +1,11 @@
 <template>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Contact Lenses </router-link> 
+      <router-link to="/solutions">Solutions & Lens Care</router-link>
+      <router-link to="/eyeHealth">Eye Health </router-link>
+      <router-link to="/about"> About Us </router-link>
+      <router-link to="/quiz"> Take The Contact Lens Quiz </router-link>
     </div>
     <router-view/>
   </div>
