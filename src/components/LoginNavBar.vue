@@ -1,10 +1,10 @@
 <template>
     <div class="login-nav-bar">
         <div class="login-nav-bar__social-icons">
-            <img alt="Vue logo" src="../assets/facebook.png" id="facebook">
-            <img alt="Vue logo" src="../assets/instagram.png" id="instagram">
-            <img alt="Vue logo" src="../assets/twitter1.png" id="twitter">
-            <img alt="Vue logo" src="../assets/whatsapp.jpg" id="whatsapp">
+            <img src="../assets/facebook.png" id="facebook">
+            <img src="../assets/instagram.png" id="instagram">
+            <img src="../assets/twitter1.png" id="twitter">
+            <img src="../assets/whatsapp.jpg" id="whatsapp">
         </div>
         <div class="login-nav-bar-access">
             <p class="login-nav-bar-login">Login/Register</p>
